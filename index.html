@@ -19,24 +19,20 @@
     <!-- Display "Square" when width is greater than or equal to 960px -->
     <!-- The largest min-width must be placed at the top. -->
       <source
-        srcset="
-        images/museum_square_480.jpg 1x,
-        images/museum_square_960.jpg 2x,
-        images/museum_square_1440.jpg 3x"
+        srcset="images/museum_square_480.jpg 1x,
+                images/museum_square_960.jpg 2x,
+                images/museum_square_1440.jpg 3x"
         media="(min-width: 960px)">
 
     <!-- For screens smaller than 960px, display Landscape mode. -->
       <source
-        srcset="
-        images/museum_landscape_320.jpg 1x,
-        images/museum_landscape_640.jpg 2x,
-        images/museum_landscape_960.jpg 3x"
+        srcset="images/museum_landscape_320.jpg 1x,
+                images/museum_landscape_640.jpg 2x,
+                images/museum_landscape_960.jpg 3x"
         media="(min-width: 0px)">
 
-    <!-- fallback -->
       <img
-        src="images/museum_landscape_480.jpg"
-        alt="museum">
+        src="images/museum_landscape_480.jpg" alt="museum">
     </picture>
   </header>
 </body>
